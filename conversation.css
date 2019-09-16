@@ -1,0 +1,48 @@
+p {
+  color: black;
+  font-family: 'Gayathri', sans-serif;
+font-size: 20px
+  margin: 10px;
+  text-align: left;
+  padding: 0 20px;
+}
+
+h1 {
+  color: lightblue;
+  font-family: 'Gayathri', sans-serif;
+  font-size: 40px
+  text-align: center;
+
+}
+
+h2{ color: red;
+font-family: 'Gayathri', sans-serif;
+  font-size: 40 px
+  text-align: center;
+
+}
+
+.sweet {
+color: red;
+font-size: 30px;
+}
+
+.cool {
+  color: white;
+  font-size: 20px;
+  background: lightblue;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid red;
+}
+
+.blankbox {
+  color: red;
+  font-size: 20px;
+  background: white;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid red;
+}
