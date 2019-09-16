@@ -8,3 +8,30 @@ p { color: lightblue;
   text-align: center;
   margin-top: auto;
 }
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  background-color: grey;
+}
+
+.flex-container div {
+  background-color: lightblue;
+  width: 200px;
+  margin: 20px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 12px;
+  font-family: 'Rubik Mono One', sans-serif;
+  color: grey;
+}
+
+.flex-container:hover {
+  background: yellow;
+  font-size: 20px;
+  color: black;
+}
+
+}
