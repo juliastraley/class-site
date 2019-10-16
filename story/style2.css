@@ -1,0 +1,17 @@
+.flex-container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.content {
+  height: 400px;
+  width: 400px;
+  background-color: white;
+  padding: 10px;
+  font-size: 400px;
+}

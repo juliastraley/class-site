@@ -1,5 +1,10 @@
 body {
+    cursor: url("cur557.cur"), default;
   background-color: grey;
+}
+
+a {
+    cursor: url("cur557.cur"), default;
 }
 
 p { color: lightblue;
@@ -7,6 +12,8 @@ p { color: lightblue;
   font-size: 40px;
   text-align: center;
   margin-top: auto;
+    cursor: url("cur557.cur"), default;
+
 }
 
 .flex-container {
@@ -15,6 +22,7 @@ p { color: lightblue;
   flex-wrap: nowrap;
   justify-content: center;
   background-color: grey;
+  cursor: url("cur557.cur"), default;
 }
 
 .flex-container div {
@@ -26,12 +34,14 @@ p { color: lightblue;
   font-size: 12px;
   font-family: 'Rubik Mono One', sans-serif;
   color: grey;
+  cursor: url("cur557.cur"), default;
 }
 
 .flex-container:hover {
   background: yellow;
   font-size: 20px;
   color: black;
+  cursor: url("cur557.cur"), default;
 }
 
 }
