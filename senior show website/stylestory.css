@@ -1,3 +1,11 @@
+html {
+  animation-name: example;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+}
+
 body {
   margin: 0;
   width: 100vw;
@@ -7,26 +15,75 @@ body {
   from {background-color: #02573f;}
   to {background-color: #bcecaf;}
 }
-.story {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap-wrap-reverse;
-  justify-content: center;
-  align-items: baseline;
-  background-color: #02573f;
-  width: 100%;
-  height: 100%;
-  animation-name: example;
-  animation-duration: 20s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
+
+a {
+  text-decoration: none;
+  color: #02573f;
+
 }
 
-.Numbers {
-  width: 500px;
-  height: 500px;
-  margin: 100px;
+a:hover {
+  color:red;
+}
+.story {
+  /* display: flex;
+  flex-direction: row; */
+  /* flex-wrap: wrap-wrap-reverse; */
+  justify-content: center;
+  align-items: baseline;
+  width: 100%;
+  height: 100%;
+}
 
+.numbers {
+  display: flex;
+  flex-direction: row;
+  display: fixed;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 100vh;
+  margin-top: 50px;
+
+}
+
+.one {
+  opacity: 90%;
+}
+
+.two {
+  transform: rotate(-5deg);
+}
+
+.three {
+  transform: rotate(10deg);
+}
+
+.four {
+  transform: rotate(-5deg);
+  opacity: 80%
+}
+
+.five {
+  transform: rotate(10deg);
+  opacity: 90%
+}
+
+.six {
+  transform: rotate(-5deg);
+
+}
+
+.seven {
+  transform: rotate(10deg);
+}
+
+.eight {
+  transform: rotate(-5deg);
+  opacity: 80%
+}
+
+.numbers a, div {
+  width:33%;
 }
 
 .glow {
