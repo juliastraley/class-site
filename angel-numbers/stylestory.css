@@ -10,6 +10,7 @@ body {
   margin: 0;
   width: 100vw;
   height: 100vh;
+  overflow-y: hidden;
 }
 @keyframes example {
   from {background-color: #02573f;}
@@ -23,7 +24,7 @@ a {
 }
 
 a:hover {
-  color:red;
+  color:white;
 }
 .story {
   /* display: flex;
@@ -35,15 +36,22 @@ a:hover {
   height: 100%;
 }
 
+
+
+.flex {
+  display: flex;
+  flex-flow: column;
+  max-height: 100vh;
+}
+
 .numbers {
   display: flex;
   flex-direction: row;
-  display: fixed;
+  /* display: fixed; */
   flex-wrap: wrap;
   width: 100vw;
   height: 100vh;
-  margin-top: 50px;
-
+  margin-top: 80px;
 }
 
 .one {
@@ -87,7 +95,7 @@ a:hover {
 }
 
 .glow {
-  font-size: 60px;
+    font-size: 80px;
     color: #bcecaf;
     text-align: center;
     -webkit-animation: glow 1s ease-in-out infinite alternate;
@@ -106,11 +114,12 @@ a:hover {
 }
 
 p {
-  font-size: 18vh;
-  font-family: volina, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  color: #02573f;
-  opacity: 70%;
-  line-height: 90px;
+  font-size: 2vh;
+  width:100vw;
+  color: white;
+  /* position: fixed; */
+  top:20px;
+  left:20px;
+  margin:0;
+  height:5%;
 }
