@@ -25,6 +25,7 @@ a {
 
 a:hover {
   color:white;
+
 }
 .story {
   /* display: flex;
@@ -55,39 +56,35 @@ a:hover {
 }
 
 .one {
-  opacity: 90%;
 }
 
 .two {
-  transform: rotate(-5deg);
+
 }
 
 .three {
-  transform: rotate(10deg);
+
 }
 
 .four {
-  transform: rotate(-5deg);
-  opacity: 80%
+
 }
 
 .five {
-  transform: rotate(10deg);
-  opacity: 90%
+
 }
 
 .six {
-  transform: rotate(-5deg);
+
 
 }
 
 .seven {
-  transform: rotate(10deg);
+
 }
 
 .eight {
-  transform: rotate(-5deg);
-  opacity: 80%
+  
 }
 
 .numbers a, div {
