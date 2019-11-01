@@ -10,7 +10,7 @@ body {
   margin: 0;
   width: 100vw;
   height: 100vh;
-  overflow-y: hidden;
+
 }
 @keyframes example {
   from {background-color: #02573f;}
@@ -48,30 +48,21 @@ a:hover {
 .numbers {
   display: flex;
   flex-direction: row;
-  /* display: fixed; */
   flex-wrap: wrap;
   width: 100vw;
   height: 100vh;
   margin-top: 80px;
+  margin-left: 20px;
 }
 
 .one {
-}
-
-.two {
 
 }
 
-.three {
-
-}
-
-.four {
-
-}
-
-.five {
-
+.info {
+  align-content: flex-start;
+  font-size: 15px;
+  padding-left: 40px;
 }
 
 .numbers a, div {
@@ -101,7 +92,6 @@ p {
   font-size: 2vh;
   width:100vw;
   color: white;
-  /* position: fixed; */
   top:20px;
   left:20px;
   margin:0;
