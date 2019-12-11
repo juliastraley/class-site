@@ -1,0 +1,50 @@
+.flex-container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ccdbd9;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  font-size: 10vh;
+  font-family: EditorialNew-Ultralight;
+  src: url(EditorialNew-Ultralight.otf);
+  color: white;
+  text-shadow: 2px 2px #ccdbd9;
+  margin-top: 50px;
+
+}
+
+
+.header:hover {
+  color: #ccdbd9;
+  transform: rotate(10deg);
+}
+
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 100vh;
+}
+
+.grid-item {
+  height: 25vw;
+  width: 25vw;
+  background: grey;
+  opacity: 0;
+  transition: opacity 2s ease 0.4s, transform 0.8s ease;
+  transform: scale(1);
+  margin:10px;
+  border: solid;
+  border-color: black;
+}
+
+.grid-item:hover {
+  opacity: 1;
+  transition: opacity 0.2s ease;
+  transform: scale(1.04);
+}

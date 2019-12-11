@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8"
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Manifesto</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Codystar|Happy+Monkey|Mogra&display=swap" rel="stylesheet">
+  </head>
+    <body>
+      <div id="container">
+<div class="flexbox">
+  <div class="boxes">
+    <div class="shadow"></div>
+  <div>	Aesthetics <br>will change,<br>
+		Values may remain<br> the same.<br><br><br><br> Do you<br> value time?</div>
+    </div>
+
+      <div class="boxes two">
+
+  <div>Pressure <br> to produce <br> will remain.<br><br><br><br>
+		A complete work <br> of art must not <br> be produced <br> in two days.</div>
+    </div>
+
+    <div class="boxes three">
+
+<div>We mustn’t<br> rush the process strictly for show.<br><br><br><br>
+		Something left<br> out, perhaps no<br>one will know?
+  </div>
+  </div>
+
+  <div class="boxes three">
+
+<div>Why spend any time,<br> if not at full?<br><br><br><br>
+		With ample care,<br> research and<br> time, a flower <br>can grow.</div>
+</div>
+
+<div class="boxes">
+
+
+<div>	What will you discover, if no attention is paid?<br><br><br><br> The piece that<br> is looked over, scrolled over.<br>
+What did it say?</div>
+</div>
+
+<div class="boxes three">
+
+<div>What if it could change how it exists today?<br><br><br><br> Well, how would you know, if no attention is paid?</div>
+</div>
+
+<div class="boxes">
+  <div class="shadow"></div>
+<div>How would<br> you know,<br> if you think<br> that time<br> is a waste?</div>
+</div>
+
+<div class="boxes two">
+
+<div>Trust in the process.<br><br><br><br>Clarity will<br> present itself.</div>
+</div>
+
+
+<div class="boxes">
+
+<div>Avoid resisting<br>the change, open your mind. <br><br><br><br>Allow for<br> more space.</div>
+</div>
+
+        <div class="boxes turtle">
+          <img src="turtle.png" alt="turtle" height="100" width="150">
+        </div>
+
+        <div class="boxes turtle one">
+          <img src="turtle.png" alt="turtle" height="100" width="150">
+        </div>
+
+        <div class="boxes turtle">
+          <img src="turtle.png" alt="turtle" height="100" width="150">
+        </div>
+
+<div class="title"><br> <br><br> <br>
+  <p><i>Manifesto</i><br>Julia Straley</p><br><br> <br> <br> <br> <br> <br><br> <br> <br><br> <br>
+  <br> <br> <p>Adressing<br>  the importance of<br> the research and experimental stages in<br> a design process, where<br>one should defy the<br> pressure to perform.</p><br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br><br> <br><p>Embracing<br> slowness, attention<br>to detail, and<br> conceptual thinking.</p>
+  </div>
+
+</div>
+
+    </div>
+</div>
+      </body>
+      </html>
+
+      <script>
+      var shadow = document.getElementsByClassName("shadow");
+      document.onmousemove = function() {
+        var x = event.clientX * 100 / window.innerWidth + "%";
+        var y = event.clientY * 100 / window.innerHeight + "%";
+
+        for(var i=0;i<2;i++){
+          shadow[i].style.left = x;
+          shadow[i].style.top = y;
+          shadow[i].style.transform = "translate(-"+x+",-"+y+")";
+        }
+      }
+      </script>
+
+
+
+<script src="three.r92.min.js"></script>
+<script src="vanta.fog.min.js"></script>
+<script>
+VANTA.FOG({
+  el: "#container",
+  highlightColor: 0xb6aa83,
+  midtoneColor: 0xdedbda,
+  lowlightColor: 0xbedea8,
+  baseColor: 0x8989d7,
+  speed: 1.5,
+  zoom: 0.10
+})
+</script>
