@@ -1,0 +1,57 @@
+
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: grey;
+}
+
+.flex-container div {
+  background-color: lightblue;
+  width: 200px;
+  margin: 20px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 12px;
+  font-family: 'Rubik Mono One', sans-serif;
+  color: grey;
+}
+
+.flex-container:hover {
+  background: yellow;
+  font-size: 20px;
+  color: black;
+}
+
+
+.poem {
+display: flex;
+position: sticky;
+justify-content: center;
+align-content: center;
+margin: 20px;
+padding: 20px;
+color: red;
+font-family: 'Antic Didone', serif;
+line-height: 1em;
+letter-spacing: .1em;
+text-align:left;
+font-size: 50px;
+}
+
+.two {
+text-align: center;
+background-color: lightblue;
+color: white;
+padding: 30px;
+}
+
+.two:hover {
+  color: red;
+  transform: rotate(80deg);
+  transition: 2s;
+  transition-delay: .5s;
+
+}

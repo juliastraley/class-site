@@ -1,0 +1,71 @@
+body {
+  background-color: lightblue;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: grey;
+}
+
+.flex-container div {
+  background-color: lightblue;
+  width: 200px;
+  margin: 20px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 12px;
+  font-family: 'Rubik Mono One', sans-serif;
+  color: grey;
+}
+
+.flex-container:hover {
+  background: yellow;
+  font-size: 20px;
+  color: black;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-style: 22px;
+  top: 50px;
+}
+
+.poem {
+display: flex;
+position: sticky;
+justify-content: center;
+align-content: center;
+margin: 20px;
+padding: 20px;
+color: yellow;
+font-family: 'Sulphur Point', sans-serif;
+line-height: 1.5em;
+letter-spacing: .1em;
+border: 2px dashed white;
+text-align: left;
+}
+
+.title {
+  font-size: 30px;
+  color: blue;
+  position: sticky;
+  font-family: 'Sulphur Point', sans-serif;
+  text-align: center;
+}
+
+.two {
+  text-align: center;
+  font-size: 50px;
+  color: blue;
+  line-height: 1em;
+  border: 2px solid blue;
+  padding: 40px;
+  margin: 20px;
+}
